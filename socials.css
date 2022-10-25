@@ -1,0 +1,30 @@
+.githubImg, .instagramImg, .telegramImg {
+  width: 30px;
+  height: 30px;
+  transition: background-color .8s, border-radius .5s, padding .5s, box-shadow .5s;
+}
+
+.githubImg:hover, .instagramImg:hover, .telegramImg:hover {
+  background-color: rgb(216, 216, 216);
+  border-radius: 7px;
+  padding: 7px;
+  box-shadow: rgb(110, 110, 110) 10px 10px;
+}
+
+
+
+.githubImg:active, .instagramImg:active, .telegramImg:active {
+  opacity: 0.5;
+}
+
+.telegramDiv {
+  margin-top: -330px;
+  margin-left: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.instagramDiv, .githubDiv {
+  margin-top: 10px;
+  margin-left: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
